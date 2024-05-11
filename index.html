@@ -3,32 +3,32 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/assets/my_css/style.css">
-        <link rel="stylesheet" href="/assets/bootstrap_4.1.3_dist/css/bootstrap.css">
+        <link rel="stylesheet" href="assets/bootstrap_4.1.3_dist/css/bootstrap.css">
+        <link rel="stylesheet" href="assets/my_css/style.css">
+        <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
         <title>Welcome</title>
     </head>
     <body>
         <header>
-            <img src="assets/images/splash_art_900.jpg" alt="Taís">
-
             <nav>
-                <u>
-                    <li><a href="#" target="_blank"></a></li>
-                    <li><a href="#" target="_blank"></a></li>
-                    <li><a href="#" target="_blank"></a></li>
-                </u>
             </nav>
+            <h2>Welcome to my personal website!</h2>
+            <picture class="card-deck card-deck2">
+                <source media="(max-width: 400px)" srcset="assets/images/splash_art_mobile.jpg">
+                <source media="(max-width: 900px)" srcset="assets/images/splash_art_500.jpg">
+                <img src="assets/images/splash_art_900.jpg" alt="Taís">
+            </picture>
         </header>
         <main>
             <section>
                 <article><h3>Abstract</h3></article>
                 <article>
-                    <u>
-                        <li><a href="assets/pages/more_information.html" >Life's History</a></li>
-                        <li><a href="assets/pages/more_information.html" target="_blank">Family</a></li>
-                        <li><a href="assets/pages/more_information.html" target="_blank">Academic Formation</a></li>
-                        <li><a href="assets/pages/more_information.html" target="_blank">Hobby</a></li>
-                    </u>
+                    <ul class="list-unstyled page-link">
+                        <li><a href="assets/pages/more_information.html" target="_blank" rel="noopener noreferrer">Life's History</a></li>
+                        <li><a href="assets/pages/more_information.html" target="_blank" rel="noopener noreferrer">Family</a></li>
+                        <li><a href="assets/pages/more_information.html" target="_blank" rel="noopener noreferrer">Academic Formation</a></li>
+                        <li><a href="assets/pages/more_information.html" target="_blank" rel="noopener noreferrer">Hobby</a></li>
+                    </ul>
                 </article>
             </section>
         </main>
