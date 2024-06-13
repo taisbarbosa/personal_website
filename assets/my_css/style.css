@@ -1,41 +1,42 @@
 @charset "utf-8";
 
-@media(min-width: 1200px) {
-    header {
-        align-items: center;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex: 1 0 0%;
-        flex: 1 0 0%;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        margin: auto;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+
+:root{
+    --shadow-light: #ffffff77;
+    --bgc-navbar: #6e4741a2;
 }
-@media(min-width: 1000px) {
-    header {
-        align-items: center;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex: 1 0 0%;
-        flex: 1 0 0%;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        margin: auto;
-    }
+body{
+    color: #fff;
+    background-color: #000;
+    font-family: "Cabin Sketch", sans-serif;
+    font-style: normal;    
 }
-@media(min-width: 900px) {
-    header{
-        align-items: center;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex: 1 0 0%;
-        flex: 1 0 0%;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        margin: auto;
-    }
+header {
+    text-align: center;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: auto;
 }
+header>img{
+    align-items: center;
+    display: -ms-flexbox;
+    flex-direction: column;
+    margin: auto;
+}
+header>nav{
+    width: 100%;
+    background-color: var(--bgc-navbar);
+    font-size: 18px;
+}
+
+
+#splash{
+    box-shadow: 1px 1px 4px 3px  #ffffff77;
+    border-radius: 3px;
+}
+
 @media(min-width: 500px) {
     header {
         align-items: center;
@@ -48,22 +49,42 @@
         margin: auto;
     }
 }
-@media(max-width: 400px) {
-    c {
-        align-items: center;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex: 1 0 0%;
-        flex: 1 0 0%;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        margin: auto;
+
+@media screen and (max-width: 900px) {
+    #splash{
+        width: 600px;
     }
-    header>img{
-        align-items: center;
-        display: -ms-flexbox;
+    header>h2{
+        font-size: 1.5rem;
+    }
+    article>h3{
+        font-size: 1.3rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    #splash{
         width: 400px;
-        flex-direction: column;
-        margin: auto;
     }
+    header>h2{
+        font-size: 1.3rem;
+    }
+    article>h3{
+        font-size: 1rem;
+    }
+    nav>a{
+        margin: 0.45rem;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 400px) {
+    #splash{
+        width: 300px;
+    }
+    header>h2{
+        font-size: 1rem;
+    }
+    nav>a{
+        margin: 0.3rem;
+    }
+
 }
