@@ -34,7 +34,12 @@ header>nav{
 
 #splash{
     box-shadow: 1px 1px 4px 3px  #ffffff77;
-    border-radius: 3px;
+    border-radius: 0.4rem;
+    width: 700px;
+}
+#img-minas{
+    border-radius: 0.4rem 0.4rem 0.4rem 0.4rem;
+    width: 300px;
 }
 
 @media(min-width: 500px) {
@@ -54,6 +59,10 @@ header>nav{
     #splash{
         width: 600px;
     }
+    #img-minas{
+        width: 200px;
+    }
+    
     header>h2{
         font-size: 1.5rem;
     }
@@ -64,6 +73,9 @@ header>nav{
 @media screen and (max-width: 600px) {
     #splash{
         width: 400px;
+    }
+    #img-minas{
+        width: 170px;
     }
     header>h2{
         font-size: 1.3rem;
