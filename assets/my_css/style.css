@@ -38,7 +38,7 @@ footer{
     background-color: var(--bgc-navbar);
 }
 nav>ul>li>a>img{
-    width: 24px;
+    width: 22px;
 }
 #academic a>img{
     width: 24px;
@@ -125,7 +125,7 @@ nav>ul>li>a>img{
 
 @media screen and (max-width: 600px) {
     nav>ul>li>a>img{
-        width: 18px;
+        width: 16px;
     }
     #academic a>img{
         width: 18px;
