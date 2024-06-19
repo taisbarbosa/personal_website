@@ -5,12 +5,16 @@
 :root{
     --shadow-light: #ffffff77;
     --bgc-navbar: #6e4741a2;
+    --bgc-subtitle: #6e474159;
 }
 body{
     color: #fff;
     background-color: #000;
     font-family: "Cabin Sketch", sans-serif;
     font-style: normal;    
+}
+h3{
+    background-color: var(--bgc-subtitle);
 }
 header {
     text-align: center;
@@ -40,14 +44,15 @@ footer{
     box-shadow: 1px 1px 4px 3px  #ffffff77;
     border-radius: 0.4rem;
     width: 700px;
+    opacity: 0.8;
 }
-.hobby div>img{
+#hobby div>img{
     max-width: 250px;
     border-radius: 0.4rem 0.4rem 0.4rem 0.4rem;
 }
-.hobby div>iframe{
+#hobby div>iframe{
     max-width: 250px;
-    height: 250px;
+    height: 300px;
     border-radius: 0.4rem 0.4rem 0.4rem 0.4rem;
 }
 #img-minas{
@@ -96,11 +101,11 @@ footer{
     #img-minas{
         width: 200px;
     }
-    .hobby div>img{
-        max-width: 200px;
+    #hobby div>img{
+        max-width: 190px;
     }
-    .hobby div>iframe{
-        max-width: 200px;
+    #hobby div>iframe{
+        max-width: 190px;
         height: 250px;
     }
     .scroll_top{
@@ -126,12 +131,12 @@ footer{
         width: 250px;
         height: 170px;
     }
-    .hobby div>img{
-        max-width: 170px;
+    #hobby div>img{
+        max-width: 280px;
     }
-    .hobby div>iframe{
-        max-width: 170px;
-        height: 200px;
+    #hobby div>iframe{
+        max-width: 280px;
+        height: 300px;
     }
     .scroll_top{
         right: 20px;
@@ -167,12 +172,12 @@ footer{
         width: 220px;
         height: 150px;
     }
-    .hobby div>img{
-        max-width: 220px;
+    #hobby div>img{
+        max-width: 210px;
     }
-    .hobby div>iframe{
-        max-width: 220px;
-        height: 200px;
+    #hobby div>iframe{
+        max-width: 210px;
+        height: 250px;
     }
     nav>a{
         margin: 0.3rem;
